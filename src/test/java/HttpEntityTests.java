@@ -1,12 +1,8 @@
+/*import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.HttpEntity;
 import org.json.JSONObject;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
-import org.testng.annotations.Test;
 
 // i wasnt able to finish this part of the project so sorry for that
 public class HttpEntityTests {
@@ -38,7 +34,7 @@ public class HttpEntityTests {
         this.restTemplate = new RestTemplate();
 
     }
-
+/*
     @Test
     public String valid_post_request(){
 
@@ -50,3 +46,4 @@ public class HttpEntityTests {
             return responseEntity.getBody();
     }
 }
+*/

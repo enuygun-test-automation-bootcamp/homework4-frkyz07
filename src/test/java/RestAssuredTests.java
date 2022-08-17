@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 public class RestAssuredTests  {
 
     Response response;
-    public void base_url(){
+    public RestAssuredTests(){
         baseURI = "https://petstore.swagger.io/v2";
     }
 
